@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .projects {
     text-decoration: none;
     color: #008080;
@@ -24,3 +29,47 @@ figcaption {
     font-size: 1.5rem;
     text-align: center;
   }
+
+#navbar {
+background-color: #DBF07F;
+justify-content: flex-end;
+display: flex;
+position: fixed;
+width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px 40px;
+}
+
+nav ul li a{
+  font-size: 1.5 rem;
+  font-weight: 700;
+  color: #2E8486
+}
+
+#welcome-section {
+background-color: #2E8486;
+color: #ededed;
+min-height: 55vh;
+padding-top: 45vh;
+}
+
+#projects {
+  background-color: #86DB92;
+}
+
+.project-tiles {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact {
+background-color: #6BBD97;
+}
+
+#profile-link {
+
+}
