@@ -31,7 +31,7 @@ figcaption {
   }
 
 #navbar {
-background-color: #DBF07F;
+background-color: #F0ED79;
 justify-content: flex-end;
 display: flex;
 position: fixed;
@@ -55,6 +55,7 @@ background-color: #2E8486;
 color: #ededed;
 min-height: 55vh;
 padding-top: 45vh;
+text-align: center;
 }
 
 #projects {
@@ -70,6 +71,18 @@ padding-top: 45vh;
 background-color: #6BBD97;
 }
 
-#profile-link {
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
 
+footer {
+  text-align: center;
 }
