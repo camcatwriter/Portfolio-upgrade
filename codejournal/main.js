@@ -45,8 +45,8 @@ myArray [4] // will take out the item in slot four, in this case false
 let minimalObject = {}
 
 const myCar = {
-    make: 'Chevrolet'
-    color: 'Red'
-    year : 1965
-    vin: '298734981238731h283udis'
+    make: 'Chevrolet',
+    color: 'Red',
+    year : 1965,
+    vin: '298734981238731h283udis',
 }
