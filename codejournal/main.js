@@ -34,7 +34,7 @@ let result = ANSWER + 84 + false + '9000' // example of type coercion
 
 let minArray = [ ]
 
-let myArray = [42, 'Bob', result, thisBool; false] // arrays honld almost anything
+let myArray = [42, 'Bob', result, thisBool, false] // arrays honld almost anything
 // arrays are varaibles that can be declared and initialized
 
 myArray [4] // will take out the item in slot four, in this case false
