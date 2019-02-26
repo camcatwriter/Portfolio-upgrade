@@ -7,12 +7,12 @@ h2 {
   color: #2E8486;
 }
 
-#welcome-section {
+.intro {
+  display: flex;
   background-color: #2E8486;
   color: rgb(188, 252, 196);
   min-height: 55vh;
   padding-top: 45vh;
-  text-align: center;
   }
 
 #navbar {
