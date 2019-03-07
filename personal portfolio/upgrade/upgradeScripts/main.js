@@ -1,4 +1,4 @@
-import { films } from './films.js'
+import { films } from '../data lists/films.js'
 
 const intro = document.querySelector('.intro')
 
