@@ -11,10 +11,10 @@ let titleElement = document.createElement('h1')
 tile.appendChild(titleElement)
 titleElement.textContent = film.title
 
-let crawlElement = document.createElement('h3')
+let crawlElement = document.createElement('div')
 tile.appendChild(crawlElement)
 crawlElement.textContent = film.opening_crawl
 
-let lineBreak = document.createElement('hr')
+intro.appendChild(tile)
 })
 
