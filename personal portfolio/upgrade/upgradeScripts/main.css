@@ -5,7 +5,7 @@
 
 .projects {
     text-decoration: none;
-    color: #008080;
+    color: #000000;
     /* display: inline-block;
     overflow: hidden;
     border: 2px solid lightblue;
@@ -16,7 +16,7 @@
   }
 
 .work-header {
-  color: #008080;
+  color: #000000;
   text-align: center;
 }
 
@@ -33,7 +33,7 @@ figcaption {
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
-    color: #2E8486;
+    color: #333;
   }
   
   #navbar {
@@ -53,7 +53,7 @@ figcaption {
     nav ul li a{
       font-size: 1.25rem;
       font-weight: 700;
-      color: #2E8486
+      color: #333
     }
 
     nav ul li a:hover {
@@ -66,7 +66,7 @@ figcaption {
       flex-wrap: wrap;
       justify-content: space-around;
       align-content: space-between;
-      background-color: #2E8486;
+      background-color: #333;
       color: rgb(188, 252, 196);
       min-height: 55vh;
       padding-top: 20vh;
@@ -106,7 +106,7 @@ flex-direction: column;
   height: 100px;
   line-height: 100px;
   background: #e0ebe8;
-  color: #008080;
+  color: #000;
   text-decoration: none;
   text-align: center;
   font-size: 1.25rem;
@@ -135,5 +135,5 @@ footer {
   padding: 10px;
   font-size: 1.5 rem;
   font-weight: 700;
-  color: #2E8486
+  color: #333
 }
