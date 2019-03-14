@@ -6,13 +6,6 @@
 .projects {
     text-decoration: none;
     color: #000000;
-    /* display: inline-block;
-    overflow: hidden;
-    border: 2px solid lightblue;
-    height: 220px;
-    width: 280px;
-    margin: 40px 100px; */
-    /*   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455459914/Portfolio/fancy-floral-pattern-384.jpg") repeat; */
   }
 
 .work-header {
@@ -35,9 +28,12 @@ figcaption {
     text-align: center;
     color: #333;
   }
+figcaption:hover {
+    color: yellow;
+  }
   
   #navbar {
-    background-color: rgb(188, 252, 196);
+    background-color: #878787;
     justify-content: flex-end;
     display: flex;
     position: fixed;
@@ -57,7 +53,7 @@ figcaption {
     }
 
     nav ul li a:hover {
-      color: #6BBD97;
+      color: yellow;
     }
     
     
@@ -67,9 +63,13 @@ figcaption {
       justify-content: space-around;
       align-content: space-between;
       background-color: #333;
-      color: rgb(188, 252, 196);
+      color: #9f9f9f;
       min-height: 55vh;
       padding-top: 20vh;
+      }
+
+      .intro h1 {
+        color: yellow;
       }
     
       .intro div {
@@ -80,7 +80,7 @@ figcaption {
       }
 
 #projects {
-  background-color: #86DB92;
+  background-color: #767676;
 }
 
 .project-tiles {
@@ -90,7 +90,7 @@ figcaption {
 }
 
 #contact {
-background-color: #6BBD97;
+background-color: #333;
 display: flex;
 flex-direction: column;
 }
@@ -100,12 +100,12 @@ flex-direction: column;
   font-weight: bold;
   margin: 35px 35px 35px 35px;
   list-style-type: none;
-  border: 2px solid #90C695;
+  border: 2px solid #767676;
   border-radius: 100%;
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background: #e0ebe8;
+  background: #9f9f9f;
   color: #000;
   text-decoration: none;
   text-align: center;
@@ -113,8 +113,8 @@ flex-direction: column;
 }
 
 .contact-details:hover {
-  background: #E4F1FE;
-  color: #6BBD97;
+  background: #222;
+  color: yellow;
 }
 
 @media only screen and (max-width: 500px) {
@@ -131,7 +131,7 @@ flex-direction: column;
 
 footer {
   text-align: center;
-  background-color: rgb(188, 252, 196);
+  background-color: #878787;
   padding: 10px;
   font-size: 1.5 rem;
   font-weight: 700;
