@@ -17,4 +17,3 @@ crawlElement.textContent = film.opening_crawl
 
 intro.appendChild(tile)
 })
-
