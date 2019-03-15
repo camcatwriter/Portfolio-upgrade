@@ -1,16 +1,25 @@
-import { starships } from 'starships.js'
+import { starships } from './starships.js'
 
-const deckS = document.querySelector('.deckS')
+const intro = document.querySelector('.intro')
 
-starships.sort((a,b) => (a.length > b.length) ? 1 : -1 )
+
+
+starships.sort((a,b) => (parseFloat(a.length) > parseFloat(b.length)) ? 1 : -1 )
+
+// function sortStarships(a, b) {
+//     return a.length > b.length ? -1 : b.length > a.length ? 1 : 0;
+//   }
 
 starships.forEach(starship => {
 let tile = document.createElement('div')
 
 let name = document.createElement('h2')
 tile.appendChild(name)
-name.textContent = starship.name
+name.textContent = "Name: " + starship.name
 
 let length = document.createElement('div')
 tile.appendChild(length)
-length.textContent = starship.length})
+length.textContent = "Length: " + starship.length
+
+intro.appendChild(tile)
+})

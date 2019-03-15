@@ -14,13 +14,17 @@ let tile = document.createElement('div')
 
 let name = document.createElement('h2')
 tile.appendChild(name)
-name.textContent = planet.name
+name.textContent = "Name: " + planet.name
+
+let diameter = document.createElement('div')
+tile.appendChild(diameter)
+diameter.textContent = "Diameter: " + planet.diameter
 
 console.log(planet.name);
 
-// let terrain = document.createElement('div')
-// tile.appendChild(terrain)
-// terrain.textContent = planet.terrain
+let terrain = document.createElement('div')
+tile.appendChild(terrain)
+terrain.textContent = "Terrain: " + planet.terrain
 
 intro.appendChild(tile)
 })
