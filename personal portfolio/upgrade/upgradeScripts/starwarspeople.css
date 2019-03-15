@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #878787;
+    justify-content: flex-end;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      list-style: none;
+      padding: 20px 40px;
+    }
+    
+    nav ul li a{
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #333
+    }
+
+    nav ul li a:hover {
+      color: yellow;
+    }
+
+    #title {
+        background-color: #333;
+        color: yellow;
+        min-height: 10vh;
+        padding-top: 16vh;
+        text-align: center;
+        align-content: space-around;
+        justify-content: space-around;
+      }
