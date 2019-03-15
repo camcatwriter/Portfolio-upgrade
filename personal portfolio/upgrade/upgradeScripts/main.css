@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 .projects {
     text-decoration: none;
     color: #000000;
@@ -56,7 +57,16 @@ figcaption:hover {
       color: yellow;
     }
     
-    
+    #title {
+      background-color: #333;
+      color: yellow;
+      min-height: 10vh;
+      padding-top: 20vh;
+      text-align: center;
+      align-content: space-around;
+      justify-content: space-around;
+    }
+
     .intro {
       display: flex;
       flex-wrap: wrap;
