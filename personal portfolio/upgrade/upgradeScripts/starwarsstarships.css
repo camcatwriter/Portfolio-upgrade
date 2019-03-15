@@ -37,6 +37,10 @@ nav ul li a:hover {
         justify-content: space-around;
       }
 
+.deckS {
+  min-height: 50vh;
+}
+
 #contact {
         background-color: #333;
         display: flex;
