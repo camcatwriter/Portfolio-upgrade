@@ -1,19 +1,15 @@
 import { starships } from '.../data lists/people.js'
 
-const intro = document.querySelector('.intro')
+const deckE = document.querySelector('.deckE')
 
-films.sort((a,b) => (a.episode_id > b.episode_id) ? 1 : -1 )
+people.sort((a,b) => (a.mass > b.mass) ? 1 : -1 )
 
-films.forEach(film => {
+people.forEach(person => {
 let tile = document.createElement('div')
 
-let titleElement = document.createElement('h2')
-tile.appendChild(titleElement)
-titleElement.textContent = film.title
-
-let crawlElement = document.createElement('div')
-tile.appendChild(crawlElement)
-crawlElement.textContent = film.opening_crawl
+let name = document.createElement('h2')
+tile.appendChild(name)
+name.textContent = person.name
 
 intro.appendChild(tile)
 })
