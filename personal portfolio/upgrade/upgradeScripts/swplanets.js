@@ -1,6 +1,6 @@
 import { planets } from 'planets.js'
 
-const deckL = document.querySelector('.deckL')
+const intro = document.querySelector('.intro')
 
 planets.sort((a,b) => (a.diameter > b.diameter) ? 1 : -1 )
 
@@ -10,6 +10,8 @@ let tile = document.createElement('div')
 let name = document.createElement('h2')
 tile.appendChild(name)
 name.textContent = planet.name
+
+console.log("names coming through now");
 
 let terrain = document.createElement('div')
 tile.appendChild(terrain)

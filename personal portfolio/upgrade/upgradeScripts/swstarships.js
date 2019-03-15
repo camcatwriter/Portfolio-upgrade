@@ -1,4 +1,4 @@
-import { starships } from '.../data lists/starships.js'
+import { starships } from 'starships.js'
 
 const deckS = document.querySelector('.deckS')
 
