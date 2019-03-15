@@ -4,7 +4,7 @@ const intro = document.querySelector('.intro')
 
 
 
-starships.sort((a,b) => (parseFloat(a.length) > parseFloat(b.length)) ? 1 : -1 )
+starships.sort((a,b) => (parseInt(a.length, 10) > parseInt(b.length, 10)) ? 1 : -1 )
 
 // function sortStarships(a, b) {
 //     return a.length > b.length ? -1 : b.length > a.length ? 1 : 0;
