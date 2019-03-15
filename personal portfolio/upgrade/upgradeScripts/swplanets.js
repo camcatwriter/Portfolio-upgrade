@@ -1,19 +1,18 @@
-import { planets } from '.../data lists/planets.js'
+import { planets } from 'planets.js'
 
-const intro = document.querySelector('.intro')
+const deckL = document.querySelector('.deckL')
 
-films.sort((a,b) => (a.episode_id > b.episode_id) ? 1 : -1 )
+planets.sort((a,b) => (a.diameter > b.diameter) ? 1 : -1 )
 
-films.forEach(film => {
+planets.forEach(planet => {
 let tile = document.createElement('div')
 
-let titleElement = document.createElement('h2')
-tile.appendChild(titleElement)
-titleElement.textContent = film.title
+let name = document.createElement('h2')
+tile.appendChild(name)
+name.textContent = planet.name
 
-let crawlElement = document.createElement('div')
-tile.appendChild(crawlElement)
-crawlElement.textContent = film.opening_crawl
+let terrain = document.createElement('div')
+tile.appendChild(terrain)
+terrain.textContent = planet.terrain
 
-intro.appendChild(tile)
 })

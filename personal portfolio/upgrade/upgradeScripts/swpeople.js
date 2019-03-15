@@ -11,5 +11,4 @@ let name = document.createElement('h2')
 tile.appendChild(name)
 name.textContent = person.name
 
-intro.appendChild(tile)
 })
