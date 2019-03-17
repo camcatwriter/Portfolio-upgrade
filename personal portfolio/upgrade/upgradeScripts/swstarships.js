@@ -38,5 +38,10 @@ let length = document.createElement('div')
 tile.appendChild(length)
 length.textContent = "Length: " + starship.length
 
+let starship_class = document.createElement('div')
+tile.appendChild(starship_class)
+starship_class.textContent = "Class: " + starship.starship_class
+
+
 intro.appendChild(tile)
 })
