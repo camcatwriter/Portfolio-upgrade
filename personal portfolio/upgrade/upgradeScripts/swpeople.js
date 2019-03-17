@@ -10,14 +10,21 @@ people.forEach(person => {
 let tile = document.createElement('div')
 
 let name = document.createElement('h2')
+name.className = 'box'
 tile.appendChild(name)
 name.textContent = "Name: " + person.name
 
 console.log(person.name)
 
 let height = document.createElement('div')
+height.className = 'box'
 tile.appendChild(height)
 height.textContent = "Height: " + person.height
+
+let mass = document.createElement('div')
+mass.className = 'box'
+tile.appendChild(mass)
+mass.textContent = "Mass: " + person.mass
 
 intro.appendChild(tile)
 })

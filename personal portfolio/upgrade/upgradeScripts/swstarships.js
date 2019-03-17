@@ -31,14 +31,17 @@ starships.forEach(starship => {
 let tile = document.createElement('div')
 
 let name = document.createElement('h2')
+name.className = 'box'
 tile.appendChild(name)
 name.textContent = "Name: " + starship.name
 
 let length = document.createElement('div')
+length.className = 'box'
 tile.appendChild(length)
 length.textContent = "Length: " + starship.length
 
 let starship_class = document.createElement('div')
+starship_class.className = 'box'
 tile.appendChild(starship_class)
 starship_class.textContent = "Class: " + starship.starship_class
 
