@@ -30,6 +30,7 @@ starships.sort(function (a,b) {
 starships.forEach(starship => {
 let tile = document.createElement('div')
 
+
 let name = document.createElement('h2')
 name.className = 'box'
 tile.appendChild(name)
