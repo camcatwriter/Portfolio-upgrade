@@ -106,4 +106,7 @@ footer {
     width: 500px;
     margin: 10px;
     text-align: center;
+    background-color: #000;
+    color: yellow;
+    border: #9f9f9f;
 }
