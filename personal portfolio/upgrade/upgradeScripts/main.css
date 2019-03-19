@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 36;
+}
 
 .projects {
     text-decoration: none;

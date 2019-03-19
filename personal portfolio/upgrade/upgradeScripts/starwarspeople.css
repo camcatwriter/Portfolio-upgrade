@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1 {
+  font-size: 36;
+}
+
 #navbar {
     background-color: #878787;
     justify-content: flex-end;
