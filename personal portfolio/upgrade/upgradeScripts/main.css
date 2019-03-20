@@ -7,6 +7,24 @@ h1 {
   font-size: 36;
 }
 
+/* .intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  min-height: 55vh;
+  padding-top: 45vh;
+  background-color: #626D8C;
+  color: #ededed;
+}
+
+.intro div {
+  width: 400px;
+  height: 340px;
+  border: 2px solid yellow;
+  text-align: center;
+} */
+
 .projects {
     text-decoration: none;
     color: #000000;

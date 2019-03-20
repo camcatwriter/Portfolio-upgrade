@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-h1 {
-  font-size: 36;
-}
-
 #navbar {
     background-color: #878787;
     justify-content: flex-end;
@@ -40,6 +36,18 @@ nav ul li a:hover {
         align-content: space-around;
         justify-content: space-around;
       }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .box {
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+    }
 
 #contact {
         background-color: #333;

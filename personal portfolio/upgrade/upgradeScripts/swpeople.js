@@ -2,7 +2,7 @@ console.log("Hello world")
 // import { people } from './people.js'
 import { people } from './people.js'
 
-const intro = document.querySelector('.intro')
+const box = document.querySelector('.box')
 
 people.sort((a,b) => (parseInt(a.height) > parseInt(b.height)) ? 1 : -1 )
 
