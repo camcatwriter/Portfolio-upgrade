@@ -37,13 +37,13 @@ nav ul li a:hover {
         justify-content: space-around;
       }
 
-      .container {
+.container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
     
-    .box {
+.box {
         width: 120px;
         margin: 10px;
         text-align: center;

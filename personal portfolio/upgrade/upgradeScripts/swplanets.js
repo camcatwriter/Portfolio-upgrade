@@ -2,7 +2,7 @@ console.log("Hello world");
 // import { films } from '../data lists/films.js'
 import { planets } from './planets.js'
 
-const intro = document.querySelector('.intro')
+const intro = document.querySelector('.box')
 
 
 
