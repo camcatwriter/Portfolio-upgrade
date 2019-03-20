@@ -8,6 +8,7 @@ people.sort((a,b) => (parseInt(a.height) > parseInt(b.height)) ? 1 : -1 )
 
 people.forEach(person => {
 let tile = document.createElement('div')
+tile.className = ("container")
 
 let name = document.createElement('h2')
 name.className = 'box'

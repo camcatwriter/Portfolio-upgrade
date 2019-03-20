@@ -13,12 +13,14 @@
     }
     
 nav ul li {
+  background-color: #878787;
       display: inline-block;
       list-style: none;
       padding: 20px 40px;
     }
     
 nav ul li a{
+  background-color: #878787;
       font-size: 1.25rem;
       font-weight: 700;
       color: #333
@@ -36,7 +38,12 @@ nav ul li a:hover {
         text-align: center;
         align-content: space-around;
         justify-content: space-around;
+        font-size: 36;
       }
+
+h1 {
+  font-size: 36;
+}
 
 .container {
         display: flex;
@@ -44,11 +51,13 @@ nav ul li a:hover {
         flex-wrap: wrap;
     }
     
-.box {
-        width: 120px;
-        margin: 10px;
-        text-align: center;
-    }
+    .box {
+      margin: 10px;
+      text-align: center;
+      background-color: #333;
+      color: yellow;
+      border: #9f9f9f;
+  }
 
 #contact {
         background-color: #333;

@@ -12,6 +12,7 @@ planets.sort((a,b) => (parseInt(a.diameter) > parseInt(b.diameter)) ? 1 : -1 )
 
 planets.forEach(planet => {
 let tile = document.createElement('div')
+tile.className = 'container'
 
 
 let name = document.createElement('h2')
