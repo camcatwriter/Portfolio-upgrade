@@ -1,132 +1,119 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
-
 
 h1 {
   font-size: 36;
 }
 
-
 #navbar {
-    background-color: #878787;
-    justify-content: flex-end;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    }
+  background-color: #878787;
+  justify-content: flex-end;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  }
     
 nav ul li {
   background-color: #878787;
-      display: inline-block;
-      list-style: none;
-      padding: 20px 40px;
-    }
+  display: inline-block;
+  list-style: none;
+  padding: 20px 40px;
+  }
     
 nav ul li a{
   background-color: #878787;
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #333
-    }
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333
+  }
 
 nav ul li a:hover {
-      color: yellow;
-    }
+  color: yellow;
+  }
 
 #title {
-        background-color: #333;
-        color: yellow;
-        min-height: 10vh;
-        padding-top: 16vh;
-        text-align: center;
-        align-content: space-around;
-        justify-content: space-around;
-      }
+  background-color: #333;
+  color: yellow;
+  min-height: 10vh;
+  padding-top: 16vh;
+  text-align: center;
+  align-content: space-around;
+  justify-content: space-around;
+  font-size: 36;
+  }
 
-      .container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
     
-    .box {
-      margin: 10px;
-      text-align: center;
-      background-color: #333;
-      color: yellow;
-      border: #9f9f9f;
+.box {
+  margin: 10px;
+  text-align: center;
+  background-color: #333;
+  color: yellow;
+  border: #9f9f9f;
   }
 
 #contact {
-        background-color: #333;
-        display: flex;
-        flex-direction: column;
-        }
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  }
         
 .contact-details {
-          display: inline-block;
-          font-weight: bold;
-          margin: 35px 35px 35px 35px;
-          list-style-type: none;
-          border: 2px solid #767676;
-          border-radius: 100%;
-          width: 100px;
-          height: 100px;
-          line-height: 100px;
-          background: #9f9f9f;
-          color: #000;
-          text-decoration: none;
-          text-align: center;
-          font-size: 1.25rem;
-        }
+  display: inline-block;
+  font-weight: bold;
+  margin: 35px 35px 35px 35px;
+  list-style-type: none;
+  border: 2px solid #767676;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #9f9f9f;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.25rem;
+  }
         
 .contact-details:hover {
-          background: #222;
-          color: yellow;
-        }
+  background: #222;
+  color: yellow;
+  }
         
-        @media only screen and (max-width: 500px) {
-          #navbar {
-            display: flex;
-          flex-direction: column;
-          align-items: center;
-          }
-        }
+@media only screen and (max-width: 500px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  }
       
-        @media only screen and (max-width: 367px) {
-          /*    #contact{
-            min-height:1100px;
-          } */
-          .contact-details {
-            border: 2px solid #90C695;
-            border-radius: 0;
-            width: 90px;
-            height: 20px;
-            padding: 10px;
-            line-height: normal;
-          }
-        }
+@media only screen and (max-width: 367px) {
+   /*    #contact{
+    min-height:1100px;
+  } */
+  .contact-details {
+    border: 2px solid #9f9f9f;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+    }
+  }
         
 footer {
-    text-align: center;
-    background-color: #878787;
-    padding: 10px;
-    font-size: 1.5 rem;
-    font-weight: 700;
-    color: #333
+  text-align: center;
+  background-color: #878787;
+  padding: 10px;
+  font-size: 1.5 rem;
+  font-weight: 700;
+  color: #878787
   }
-
-  .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.box {
-    width: 500px;
-    margin: 10px;
-    text-align: center;
-}
