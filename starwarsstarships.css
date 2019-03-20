@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #000;
 }
 
 h1 {
@@ -18,9 +18,9 @@ h1 {
     
 nav ul li {
   background-color: #878787;
-    display: inline-block;
-    list-style: none;
-    padding: 20px 40px;
+  display: inline-block;
+  list-style: none;
+  padding: 20px 40px;
   }
     
 nav ul li a{
@@ -75,7 +75,7 @@ nav ul li a:hover {
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background: #9f9f9f;
+  background-color: #9f9f9f;
   color: #000;
   text-decoration: none;
   text-align: center;
@@ -110,6 +110,7 @@ nav ul li a:hover {
   }
         
 footer {
+<<<<<<< HEAD:upgradeScripts/starwarsstarships.css
   text-align: center;
   background-color: #878787;
   padding: 10px;
@@ -117,3 +118,12 @@ footer {
   font-weight: 700;
   color: #878787
   }
+=======
+    text-align: center;
+    background-color: #878787;
+    padding: 10px;
+    font-size: 1.5 rem;
+    font-weight: 700;
+    color: #878787
+  }
+>>>>>>> e3dda865216499af5494a9ef6d271e456edf9ed9:starwarsstarships.css

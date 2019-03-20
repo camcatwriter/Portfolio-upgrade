@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: black;
 }
 
 h1 {
@@ -18,9 +18,9 @@ h1 {
     
 nav ul li {
   background-color: #878787;
-  display: inline-block;
-  list-style: none;
-  padding: 20px 40px;
+    display: inline-block;
+    list-style: none;
+    padding: 20px 40px;
   }
     
 nav ul li a{
@@ -75,7 +75,7 @@ nav ul li a:hover {
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background-color: #9f9f9f;
+  background: #9f9f9f;
   color: #000;
   text-decoration: none;
   text-align: center;
