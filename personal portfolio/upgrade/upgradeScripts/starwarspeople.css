@@ -125,7 +125,9 @@ footer {
 }
 
 .box {
-    width: 500px;
-    margin: 10px;
-    text-align: center;
+  margin: 10px;
+  text-align: center;
+  background-color: #333;
+  color: yellow;
+  border: #9f9f9f;
 }
