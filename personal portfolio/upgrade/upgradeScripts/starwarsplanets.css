@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #000;
 }
+
 
 h1 {
   font-size: 36;
@@ -42,16 +44,19 @@ nav ul li a:hover {
         justify-content: space-around;
       }
 
-      .container {
+      /* .container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-    }
+    } */
     
     .box {
         width: 120px;
         margin: 10px;
         text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
 #contact {

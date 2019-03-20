@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #000;
 }
 
 h1 {
@@ -17,12 +18,14 @@ h1 {
     }
     
 nav ul li {
+  background-color: #878787;
       display: inline-block;
       list-style: none;
       padding: 20px 40px;
     }
     
 nav ul li a{
+  background-color: #878787;
       font-size: 1.25rem;
       font-weight: 700;
       color: #333
@@ -58,7 +61,7 @@ nav ul li a:hover {
           width: 100px;
           height: 100px;
           line-height: 100px;
-          background: #9f9f9f;
+          background-color: #9f9f9f;
           color: #000;
           text-decoration: none;
           text-align: center;
@@ -98,7 +101,7 @@ footer {
     padding: 10px;
     font-size: 1.5 rem;
     font-weight: 700;
-    color: #333
+    color: #878787
   }
 
 /* .container {
