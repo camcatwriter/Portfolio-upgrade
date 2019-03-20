@@ -4,6 +4,10 @@
     background-color: black;
 }
 
+h1 {
+  font-size: 36;
+}
+
 #navbar {
     background-color: #878787;
     justify-content: flex-end;
@@ -40,10 +44,6 @@ nav ul li a:hover {
         justify-content: space-around;
         font-size: 36;
       }
-
-h1 {
-  font-size: 36;
-}
 
 .container {
         display: flex;
@@ -115,19 +115,5 @@ footer {
     padding: 10px;
     font-size: 1.5 rem;
     font-weight: 700;
-    color: #333
+    color: #878787
   }
-
-  .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.box {
-  margin: 10px;
-  text-align: center;
-  background-color: #333;
-  color: yellow;
-  border: #9f9f9f;
-}
