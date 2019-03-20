@@ -22,7 +22,7 @@ height.className = 'box'
 tile.appendChild(height)
 height.textContent = "Height: " + person.height
 
-let mass = document.createElement('div')
+let mass = document.createElement('h2')
 mass.className = 'box'
 tile.appendChild(mass)
 mass.textContent = "Mass: " + person.mass
