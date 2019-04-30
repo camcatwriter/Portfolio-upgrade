@@ -14,6 +14,7 @@ h1 {
   display: flex;
   position: fixed;
   width: 100%;
+  z-index: 30;
   }
     
 nav ul li {
@@ -110,7 +111,6 @@ nav ul li a:hover {
   }
         
 footer {
-<<<<<<< HEAD:upgradeScripts/starwarsstarships.css
   text-align: center;
   background-color: #878787;
   padding: 10px;
@@ -118,12 +118,3 @@ footer {
   font-weight: 700;
   color: #878787
   }
-=======
-    text-align: center;
-    background-color: #878787;
-    padding: 10px;
-    font-size: 1.5 rem;
-    font-weight: 700;
-    color: #878787
-  }
->>>>>>> e3dda865216499af5494a9ef6d271e456edf9ed9:starwarsstarships.css
