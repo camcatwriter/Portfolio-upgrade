@@ -2,7 +2,7 @@ import { starships } from './starships.js'
 
 const intro = document.querySelector('.intro')
 
-
+//sorting starships via length
 starships.sort(function (a,b) {
     console.log(a.length,b.length)
     if (a.length == "unknown") {
@@ -21,12 +21,7 @@ starships.sort(function (a,b) {
     }
 } )
 
-// starships.sort((a,b) => (parseFloat(a.length, 10) > parseFloat(b.length, 10)) ? 1 : -1 )
-
-// function sortStarships(a, b) {
-//     return a.length > b.length ? -1 : b.length > a.length ? 1 : 0;
-//   }
-
+//making tiles with bulma box
 starships.forEach(starship => {
 let tile = document.createElement('div')
 tile.className = 'container'
@@ -46,6 +41,7 @@ let starship_class = document.createElement('h2')
 starship_class.className = 'box'
 tile.appendChild(starship_class)
 starship_class.textContent = "Class: " + starship.starship_class
+
 
 
 intro.appendChild(tile)

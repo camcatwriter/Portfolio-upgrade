@@ -1,15 +1,11 @@
-console.log("Hello world");
-
-// import { films } from '../data lists/films.js'
 import { planets } from './planets.js'
 
 const intro = document.querySelector('.intro')
 
-
-
-
+//sort planets by diameter
 planets.sort((a,b) => (parseInt(a.diameter) > parseInt(b.diameter)) ? 1 : -1 )
 
+//make tiles for planet info
 planets.forEach(planet => {
 let tile = document.createElement('div')
 tile.className = 'container'

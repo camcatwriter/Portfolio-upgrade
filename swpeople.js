@@ -1,11 +1,11 @@
-console.log("Hello world")
-// import { people } from './people.js'
 import { people } from './people.js'
 
 const intro = document.querySelector('.intro')
 
+//sorting people by height
 people.sort((a,b) => (parseInt(a.height) > parseInt(b.height)) ? 1 : -1 )
 
+//making tiles for people
 people.forEach(person => {
 let tile = document.createElement('div')
 tile.className = ("container")
